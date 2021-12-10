@@ -275,6 +275,11 @@ footer a {
   color: #fff;
 }
 
+footer a :hover {
+  transition-duration: .6s;
+  color: #f9013f;
+}
+
 .copyrightinfo p {
   color: #fff;
 }
