@@ -161,6 +161,7 @@ nav a {
   text-decoration: none;
   color: #fff;
   padding: .5em 0;
+  font-weight: bold;
 }
 
 .icon svg {
@@ -325,7 +326,8 @@ footer a {
 
 @media only screen and (min-width: 60em) {
 
-  section {
+  section.type-of-work,
+  section.portfolio {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
